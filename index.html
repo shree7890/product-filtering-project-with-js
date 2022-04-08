@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product filtering project with js</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="product-area">
+      <div class="container product-title">
+        <h1>Our <strong class="store">Store Products</strong></h1>
+        <div class="product-filter">
+          <a href="#" class="btn" data-filter="all">All</a>
+          <a href="#" class="btn" data-filter="watch">Watch</a>
+          <a href="#" class="btn" data-filter="shirt">Shirt</a>
+          <a href="#" class="btn" data-filter="gown">Gown</a>
+          <a href="#" class="btn" data-filter="jewelry">Jewelry</a>
+        </div>
+        <div class="input-search">
+          <input id="search" type="text" placeholder="Search product..." />
+        </div>
+      </div>
+    </main>
+    <section class="product-stock">
+      <div class="container" id="products">
+        <div class="store-product watch">
+          <div class="product-image">
+            <img src="./images/1.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Watch</h2>
+            <h3>
+              <del class="del">$39.99</del
+              ><span class="current-rate">$29.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product watch">
+          <div class="product-image">
+            <img src="./images/2.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Watch</h2>
+            <h3>
+              <del class="del">$50.99</del
+              ><span class="current-rate">$45.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product watch">
+          <div class="product-image">
+            <img src="./images/13.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Watch</h2>
+            <h3>
+              <del class="del">$60.99</del
+              ><span class="current-rate">$40.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/3.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$50.99</del
+              ><span class="current-rate">$40.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/4.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$80.99</del
+              ><span class="current-rate">$70.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/5.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$40.99</del
+              ><span class="current-rate">$30.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/6.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$70.99</del
+              ><span class="current-rate">$60.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/7.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$120.99</del
+              ><span class="current-rate">$90.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product shirt">
+          <div class="product-image">
+            <img src="./images/8.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Shirt</h2>
+            <h3>
+              <del class="del">$200.99</del
+              ><span class="current-rate">$99.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product jewelry">
+          <div class="product-image">
+            <img src="./images/9.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Jewelry</h2>
+            <h3>
+              <del class="del">$200.99</del
+              ><span class="current-rate">$189.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product jewelry">
+          <div class="product-image">
+            <img src="./images/10.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Jewelry</h2>
+            <h3>
+              <del class="del">$300.99</del
+              ><span class="current-rate">$289.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product jewelry">
+          <div class="product-image">
+            <img src="./images/11.png" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Jewelry</h2>
+            <h3>
+              <del class="del">$250.99</del
+              ><span class="current-rate">$200.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+        <div class="store-product gown">
+          <div class="product-image">
+            <img src="./images/250.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <h2>Gown</h2>
+            <h3>
+              <del class="del">$120.99</del
+              ><span class="current-rate">$100.99</span>
+            </h3>
+            <button class="btn-buy">buy now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
