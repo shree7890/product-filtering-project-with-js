@@ -34,3 +34,31 @@ searchInput.addEventListener("keyup", function (e) {
     }
   });
 });
+
+/* 
+
+// This code has been replaced by the function(filterProducts) above which does a better job
+
+// search.addEventListener("keyup", (e) => {
+//     e.preventDefault();
+//     const searchValue = search.value.toLowerCase().trim();
+//     // alert(search.value);
+
+    
+//     for (i = 0; i < storeProducts.length; i++) {
+//         if (storeProducts[i].classList.contains(searchValue)) {
+//             storeProducts[i].style.display = 'block';
+//         } else if (searchValue == "") {
+//             storeProducts[i].style.display = 'block';
+//         } else {
+//             storeProducts[i].style.display = 'none';    
+//         }
+
+//     //    if (searchValue == "") {
+//     //     storeProducts[i].style.display = 'block';
+//     //    }
+        
+//     }
+
+// })
+*/
